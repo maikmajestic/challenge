@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { withRouter } from 'next/router';\n\nvar Health = function Health() {\n  return __jsx(\"div\", null, \"OK\");\n};\n\nHealth.getInitialProps = function (_ref) {\n  var res = _ref.res;\n  res.end();\n};\n\nexport default withRouter(Health);","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,378 @@
+body{
+    background-color: #e99f7d;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100hv;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.main-box{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.custom-textfield{
+    background-color: #e8e8e8;
+    border-radius: 20px;
+}
+
+.custom-textfield:hover, .custom-textfield:focus{
+    background-color: #e8e8e8;
+    border-color: #e8e8e8;
+    box-shadow: none;
+}
+
+.box-icon{
+    background: #e8e8e8;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.white-bg-icon{
+    background: #fff;
+}
+
+.container-timezone{
+    display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 660px;
+}
+
+.container-timezone .box-timezone:first-child, .container-timezone .box-timezone:last-child{
+    background: #343d47;
+    color: #fff;
+}
+
+.container-timezone .box-timezone:first-child span, .container-timezone .box-timezone:last-child span{
+    color: #fff;
+}
+
+.box-timezone{
+    flex: 0 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    min-width: 49px;
+}
+
+.box-hover{
+    background-color: rgba(240,0,0,0.2);
+    position: absolute;
+    width: 53px;
+    height: 71px;
+    left: 15px;
+    border: 1px solid orange;
+    margin: -3px -2px;
+}
+
+.box-timezone span{
+    display: block;
+    color: #343d47;
+}
+
+.text-bold{
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.text-small{
+    font-size: .8em;
+}
+
+.text-time{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-time-mod{
+    font-size: .8em;
+    font-weight: 600;
+}
+
+
+
+.bg-light{
+    background-color: #fff!important;
+}
+
+.navbar-brand{
+    width: 105px;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.link-client{
+    background: #ff6c51;
+    padding: .3rem;
+    display: block;
+    margin-top: 0.2rem;
+    border-radius: 3px;
+    color: #fff!important;
+    cursor: pointer;
+}
+
+.link-client:hover{
+    background: #000;
+    color: #ff6c51!important;
+}
+
+.help-link{
+    font-size: .9rem;
+    margin-top: 1px;
+}
+
+.bg-mainImg{
+    background-image: url('https://wanna.es/wp-content/uploads/2015/07/slide01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.goFintonic-link{
+    color: #ff6c51;
+    padding: .5rem 2rem;
+    font-weight: 600;
+}
+
+.pt-12{
+    padding-top: 12rem;
+}
+
+.slide-main{
+    padding-top: 50%;
+    width: 40%;
+    text-align: left;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.slide-main h1{
+    color: #ff6c51;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.slide-main p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.info-neltia{
+    padding: 7rem 0;
+}
+
+.info-fintonic{
+    background: #ff6c51;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2rem;
+    padding: 3rem 0 0 0;
+    color: #fff;
+}
+
+.title-info{
+    color: #ff6c51;
+    font-size: 1.4rem;
+}
+
+.title2-info{
+    color: #000;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.titleRounded-info{
+    color: #ff6c51;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.description-info-maven{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.description-info{
+    font-size: 1.2rem;
+}
+
+.bg-info-fintonic{
+    height: 400px;
+    width: 100%;
+}
+
+.slide-info{
+    left: 30%;
+    width: 40%;
+}
+.slide-info h1{
+    color: #ff6c51;
+    font-size: 5rem;
+}
+
+.slide-info h5{
+    color: #ff6c51;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#carouselExampleIndicators2 .carousel-caption{
+    bottom: 25%;
+    color: #000;
+}
+
+#carouselExampleIndicators2 .carousel-indicators li{
+    background-color: #ff6c51;
+}
+
+.footer{
+    bottom: 0;
+    color: #fff;
+    font-size: .8rem;
+    width: 100%;
+    background-color: dimgrey;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.how-body{
+    background-color: #f8f8f8;
+}
+
+.how-container{
+    padding: 2rem 0;
+}
+
+.how-img{
+    max-height: 600px;
+}
+
+a.terms-link{
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .bg-mainImg{
+        height: 200px;
+    }
+    .pt-12{
+        padding-top: 3rem;
+    }
+    .slide-main {
+        bottom: initial;
+        left: initial;
+        padding: 10%;
+        right: initial;
+        top: 12%;
+        width: 100%;
+    }
+
+    .slide-main.isInactive{
+        top: 12%;
+    }
+
+    .slide-main.isActive{
+        top: 22%;
+    }
+
+    .slide-main .title-slide{
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+
+    .slide-main p{
+        font-size: 1rem;
+    }
+
+    .info-neltia{
+        padding: 1rem 0;
+    }
+    
+    .info-neltia .title-info{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .info-neltia .description-info{
+        font-size: 1rem;
+    }
+    .bg-info-fintonic{
+        height: 250px;
+    }
+    #carouselExampleIndicators2 .carousel-caption{
+        bottom: 0;
+    }
+    .slide-info{
+        left: 0;
+        width: 100%;
+    }
+    .slide-info h1{
+        font-size: 3rem;
+    }
+
+    .image-container{
+        height: 120px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .image-container img{
+        object-fit: contain;
+        width: max-content;
+    }
+
+    .info-fintonic{
+        font-size: 1rem;
+    }
+
+    .how-img{
+        max-width: 100%;
+    }
+
+    .how-body .container{
+        padding: 0;
+    }
+
+    .how-body .how-container{
+        padding: 2rem;
+    }
+    
+    .description-info-maven{
+        margin-bottom: 2rem;
+    }
+
+    .link-client{
+        margin-top: 0;
+        width: fit-content;
+    }
+
+    .title2-info{
+        font-size: 1.5rem;
+    }
+    
+    .titleRounded-info{
+        font-size: 1rem;
+    }
+    
+    .description-info-maven{
+        font-size: 1rem;
+    }
+  }

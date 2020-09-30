@@ -1,0 +1,188 @@
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+.bg-light{
+    background-color: #fff!important;
+}
+
+.navbar-brand{
+    width: 105px;
+}
+
+.navbar-brand img{
+    width: 100%;
+}
+
+.help-link{
+    font-size: .9rem;
+}
+
+.bg-mainImg{
+    background-image: url('https://wanna.es/wp-content/uploads/2015/07/slide01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.pt-12{
+    padding-top: 12rem;
+}
+
+.slide-main{
+    padding-top: 50%;
+    width: 40%;
+    text-align: left;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.slide-main h1{
+    color: lightcoral;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.slide-main p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.info-neltia{
+    padding: 7rem 0;
+}
+
+.info-fintonic{
+    background: lightcoral;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2rem;
+    padding: 3rem 0 0 0;
+    color: #fff;
+}
+
+.title-info{
+    color: lightcoral;
+    font-size: 1.4rem;
+}
+
+.description-info{
+    font-size: 1.2rem;
+}
+
+.bg-info-fintonic{
+    height: 400px;
+    width: 100%;
+}
+
+.slide-info{
+    left: 30%;
+    width: 40%;
+}
+.slide-info h1{
+    color: lightcoral;
+    font-size: 5rem;
+}
+
+.slide-info h5{
+    color: lightcoral;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#carouselExampleIndicators2 .carousel-caption{
+    bottom: 25%;
+    color: #000;
+}
+
+#carouselExampleIndicators2 .carousel-indicators li{
+    background-color: lightcoral;
+}
+
+.footer{
+    bottom: 0;
+    color: #fff;
+    font-size: .8rem;
+    width: 100%;
+    background-color: dimgrey;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .bg-mainImg{
+        height: 200px;
+    }
+    .pt-12{
+        padding-top: 3rem;
+    }
+    .slide-main {
+        bottom: initial;
+        left: initial;
+        padding: 0 10%;
+        right: initial;
+        top: 12%;
+        width: 100%;
+    }
+
+    .slide-main.isInactive{
+        top: 12%;
+    }
+
+    .slide-main.isActive{
+        top: 22%;
+    }
+
+    .slide-main .title-slide{
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+
+    .slide-main p{
+        font-size: 1rem;
+    }
+
+    .info-neltia{
+        padding: 1rem 0;
+    }
+    
+    .info-neltia .title-info{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .info-neltia .description-info{
+        font-size: 1rem;
+    }
+    .bg-info-fintonic{
+        height: 250px;
+    }
+    #carouselExampleIndicators2 .carousel-caption{
+        bottom: 0;
+    }
+    .slide-info{
+        left: 0;
+        width: 100%;
+    }
+    .slide-info h1{
+        font-size: 3rem;
+    }
+
+    .image-container{
+        height: 120px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .image-container img{
+        object-fit: contain;
+        width: max-content;
+    }
+
+    .info-fintonic{
+        font-size: 1rem;
+    }
+  }
+
+/*# sourceMappingURL=styles.chunk.css.map*/

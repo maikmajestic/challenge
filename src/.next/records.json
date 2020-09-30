@@ -1,0 +1,78 @@
+{
+  "mini-css-extract-plugin ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!pages/main.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css ../node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!pages/main.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/_app.js": 3,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/_error.js": 4,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/components/landing/cl.js": 5,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/components/landing/mx.js": 6,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/index.js": 7,
+      "static/x5IiVz462A1k8eRgw5hWM/pages/rest/health.js": 8,
+      "styles": 9,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/_app.js": 10,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/_error.js": 11,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/components/landing/cl.js": 12,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/components/landing/mx.js": 13,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/index.js": 14,
+      "static/KvBDFAIUIaEK_GdoQD85I/pages/rest/health.js": 15,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/_app.js": 3,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/_error.js": 4,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/components/landing/cl.js": 5,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/components/landing/mx.js": 6,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/index.js": 7,
+      "static/cAwYTlhDlxTh-f9LuOP6V/pages/rest/health.js": 8,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/_app.js": 10,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/_error.js": 11,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/components/landing/cl.js": 12,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/components/landing/mx.js": 13,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/index.js": 14,
+      "static/PpYGAaO-kpIkr5iNOvZjZ/pages/rest/health.js": 15,
+      "static/id4LimG5k03Royy3LvCfD/pages/_app.js": 3,
+      "static/id4LimG5k03Royy3LvCfD/pages/_error.js": 4,
+      "static/id4LimG5k03Royy3LvCfD/pages/components/landing/cl.js": 5,
+      "static/id4LimG5k03Royy3LvCfD/pages/components/landing/mx.js": 6,
+      "static/id4LimG5k03Royy3LvCfD/pages/index.js": 7,
+      "static/id4LimG5k03Royy3LvCfD/pages/rest/health.js": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
